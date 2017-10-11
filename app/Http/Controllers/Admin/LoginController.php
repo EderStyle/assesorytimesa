@@ -3,8 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Request;
+use Illuminate\Validation\ValidationException;
 
 class LoginController extends Controller
 {
@@ -18,16 +19,6 @@ class LoginController extends Controller
     | to conveniently provide its functionality to your applications.
     |
     */
-
-    use AuthenticatesUsers;
-
-    /**
-     * Where to redirect users after login.
-     *
-     * @var string
-     */
-    protected $redirectTo = 'admin/home';
-
     /**
      * Create a new controller instance.
      *
@@ -53,8 +44,49 @@ class LoginController extends Controller
      *
      * @return \Illuminate\Contracts\Auth\StatefulGuard
      */
-    protected function guard()
+    public function login(Request $request)
     {
-        return Auth::guard('admin');
+        $this->validate($request, [
+            'email'=>'required|email',
+            'password'=>'required|min:6'
+        ]);
+
+        $credential = [
+            'email'=>$request->email,
+            'password'=>$request->password,
+        ];
+
+        if(Auth::guard('admin')->attempt($credential, $request->member))
+        {
+            return redirect()->intended(route('asseadm.admin.home'));
+        }
+
+        return $this->sendFailedLoginResponse($request);
+    }
+
+
+    /**
+    * Get the failed login response instance.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Symfony\Component\HttpFoundation\Response
+     *
+     * @throws ValidationException
+     */
+    protected function sendFailedLoginResponse(Request $request)
+    {
+        throw ValidationException::withMessages([
+            $this->username() => [trans('auth.failed')],
+        ]);
+    }
+
+    /**
+     * Get the login username to be used by the controller.
+     *
+     * @return string
+     */
+    public function username()
+    {
+        return 'email';
     }
 }

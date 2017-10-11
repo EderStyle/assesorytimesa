@@ -47,4 +47,10 @@ return [
         'redirect' => 'http://assesorytimesa.dev:8080/auth/facebook/callback'
     ],
 
+    'twitter' => [
+        'client_id' => 'WbtNU02Mby32onBwtUwx3PE9e',
+        'client_secret' => 'SWdnpZI3EmvQNW60C2XfrN19XP5THGSYRApSeeahL4Zayccz09',
+        'redirect' => 'http://assesorytimesa.dev:8080/auth/twitter/callback'
+    ],
+
 ];

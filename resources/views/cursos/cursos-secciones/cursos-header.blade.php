@@ -33,5 +33,6 @@
   </form>
 </nav>
 
+
 @include('cursos.cursos-secciones.login-modal')
 @include('cursos.cursos-secciones.register-modal')

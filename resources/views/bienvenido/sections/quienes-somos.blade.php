@@ -1,16 +1,16 @@
 <a href="#" name="quienessomos"></a>
    <div class="container">
   <div>
-	<h4 class="center">¿QUIENES SOMOS?</h4>
+	<h4 class="center">¿Quienes somos?</h4>
 
   </div>
 	<div class="row">
 		<div class="col m3 s12">
-			<img class="circle responsive-img hide-on-small-and-down" src="images/somos/mision1.jpeg">
+			<img class="circle responsive-img hide-on-small-and-down" src="images/somos/mision2.jpg">
 		</div>
 		<div class="col m9 s12">
 			
-				<h4>MISIÓN</h4>
+				<h4>Misión</h4>
 				<p style="text-align: justify">
 					Asesorar integralmente a nuestros clientes acompañándolos a encontrar soluciones a 
 					sus incertidumbres y necesidades especificas que experimenten en tiempo actual en 
@@ -26,7 +26,7 @@
 	<div class="row">
 		<div class="col m9 s12">
 			
-				<h4 class="right-align">VISIÓN</h4>
+				<h4 class="right-align">Visión</h4>
 				<p style="text-align: justify">
 					Llegar a ser lideres en brindar Asesorías Integrales a empresas, negocios u organizaciones con el fin de ayudar al sostenimiento Económico del País, respetando los valores de una sociedad comprometida con el crecimiento y que nos permita responder a nuestros Ideales.
 															Ganar = Ganar
@@ -44,7 +44,7 @@
 		</div>
 		<div class="col m9 s12">
 			
-				<h4>HISTORIA</h4>
+				<h4>Historia</h4>
 				<p style="text-align: justify" >
 					Esta empresa es creada con el fin de ayudar a los negocios tradicionales a obtener asesorías en la ejecución del plan de negocios, capacitando a sus empleados para mejorar el servicio que brindaban enfocándose en el crecimiento sostenido y el retorno inmediato.
 					Pasamos de esta instancia a establecer planes mas avanzados enfocándonos en la inversión haciendo análisis de riesgos en todas sus etapas, utilizando la inteligencia Racional y Emocional
@@ -57,7 +57,7 @@
 	<div class="row">
 		<div class="col m9 s12">
 			
-				<h4 class="right-align">PROPÓSITO</h4>
+				<h4 class="right-align">Propósito</h4>
 				<p style="text-align: justify">
 					El propósito de ASSESORY TIME S.A  es poner en manos de los pequeños, medianos y  grandes  empresarios soluciones útiles al momento de tomar una decisión que  involucre la estabilidad de su empresa.
 					La eficacia y eficiencia en la que se desenvuelven nuestros consultores reflejan la MISION y VISION de nuestra empresa y de sus metas individuales.

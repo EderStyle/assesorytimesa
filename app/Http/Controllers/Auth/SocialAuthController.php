@@ -28,12 +28,15 @@ if ($user = User::where('email', $social_user->email)->first()) {
 return $this->authAndRedirect($user); // Login y redirección
 } else {
 //aqui la modificacion
+	
 $user = User::create([
     'name' => $social_user->name,
     'email' => $social_user->email,
     'avatar' => $social_user->avatar,
     'provider'=>trim($provider)
+
 ]);
+
 \DB::commit();
 return $this->authAndRedirect($user); // Login y redirección
 }
@@ -50,6 +53,6 @@ public function authAndRedirect($user)
 {
 Auth::login($user);
 
-return redirect()->to('/home#');
+return redirect()->to('/cursos-inicio#');
 }
 }
