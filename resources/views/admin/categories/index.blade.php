@@ -2,6 +2,7 @@
 
 @section('content')
 <br>
+<<<<<<< HEAD
 <div class="row">
     <div class="container">
         <a href="" data-toggle="modal" data-target="#create-modal" class="btn btn-outline-primary"><i class="fa fa-plus"></i> Nueva categoría</a>
@@ -15,6 +16,21 @@
         <table class="table table-hover">
             <thead class="bg-info">
                 <tr class="">
+=======
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <a href="" class="btn btn-success bt-sm">Agregar</a>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="">
+          <div class="">
+            <table class="table table-responsive">
+            <thead>
+                <tr class="table-info">
+>>>>>>> 9e563767f596c31b1587dcbfc5980e0c4e72940f
                     <th class="text-center">N°</th>
                     <th class="text-center">Logo</th>
                     <th class="text-center">Nombre</th>
@@ -25,6 +41,7 @@
                 </tr>
             </thead>
             <tbody>
+<<<<<<< HEAD
                 @forelse($table as $item)
                 <tr class="">
                     <td class="text-center">{{ $item->category_id }}</td>
@@ -58,6 +75,31 @@
             </tbody>
         </table>
       </div>
+=======
+                <tr class="table-warning">
+                    <td class="text-center">{{ Auth::user()->name }}</td>
+                    <td class="text-center">Dato</td>
+                    <td class="text-center">Dato</td>
+                    <td class="text-center">Dato</td>
+                    <td class="text-center">Dato</td>
+                    <td class="text-center">Dato</td>
+                    <td class="text-center">
+                        <div class="btn-group dropup">
+                          <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-list"></i>
+                          </button>
+                          <div class="dropdown-menu">
+                            <a href="" class="dropdown-item">Editar</a>
+                            <a href="" class="dropdown-item">Eliminar</a>
+                          </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+          </div>
+        </div>
+>>>>>>> 9e563767f596c31b1587dcbfc5980e0c4e72940f
     </div>
 </div>
 @endsection

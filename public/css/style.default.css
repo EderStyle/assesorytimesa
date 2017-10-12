@@ -1957,7 +1957,11 @@ fieldset[disabled] a.btn {
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
+<<<<<<< HEAD
   box-shadow: 0 0 0 2px black;
+=======
+  box-shadow: 0 0 0 2px rgba(51, 179, 90, 0.5);
+>>>>>>> 9e563767f596c31b1587dcbfc5980e0c4e72940f
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
@@ -2137,6 +2141,10 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
+<<<<<<< HEAD
+=======
+  color: #80CBC4;
+>>>>>>> 9e563767f596c31b1587dcbfc5980e0c4e72940f
   background-color: #80CBC4;
 }
 

@@ -45,7 +45,11 @@
         </div>
         <div class="main-menu">
           <ul id="side-main-menu" class="side-menu list-unstyled">                  
+<<<<<<< HEAD
             <li class="active"><a href="index.html"> <i class="fa fa-home"></i><span> Inicio</span></a></li>
+=======
+            <li class="active"><a href="index.html"> <i class="icon-home"></i><span>Inicio</span></a></li>
+>>>>>>> 9e563767f596c31b1587dcbfc5980e0c4e72940f
           </ul>
         </div>
 
@@ -53,8 +57,13 @@
           <ul id="side-admin-menu" class="side-menu list-unstyled"> 
             <li>
               <a href="#pages-nav-list" data-toggle="collapse" aria-expanded="false">
+<<<<<<< HEAD
                 <i class="fa fa-users"></i>
                 <span> Personal</span>
+=======
+                <i class="icon-interface-windows"></i>
+                <span>Personal</span>
+>>>>>>> 9e563767f596c31b1587dcbfc5980e0c4e72940f
                 <div class="arrow pull-right">
                   <i class="fa fa-angle-down"></i>
                 </div>
@@ -71,14 +80,23 @@
           <ul id="side-admin-menu" class="side-menu list-unstyled"> 
             <li>
               <a href="#pages-nav-list1" data-toggle="collapse" aria-expanded="false">
+<<<<<<< HEAD
                 <i class="fa fa-book"></i>
                 <span> Cursos</span>
+=======
+                <i class="icon-interface-windows"></i>
+                <span>Cursos</span>
+>>>>>>> 9e563767f596c31b1587dcbfc5980e0c4e72940f
                 <div class="arrow pull-right">
                   <i class="fa fa-angle-down"></i>
                 </div>
               </a>
               <ul id="pages-nav-list1" class="collapse list-unstyled">
+<<<<<<< HEAD
                 <li><a href="{{ route('asseadm.categories.index') }}">Categorías</a></li>
+=======
+                <li><a href="{{ route('asseadm.category.index') }}">Categorías</a></li>
+>>>>>>> 9e563767f596c31b1587dcbfc5980e0c4e72940f
                 <li><a href="#">Cursos</a></li>
               </ul>
             </li>
@@ -87,7 +105,11 @@
 
         <div class="main-menu">
           <ul id="side-main-menu" class="side-menu list-unstyled">                  
+<<<<<<< HEAD
             <li class=""><a href="index.html"> <i class="fa fa-bar-chart"></i><span> Reportes</span></a></li>
+=======
+            <li class=""><a href="index.html"> <i class="icon-home"></i><span>Reportes</span></a></li>
+>>>>>>> 9e563767f596c31b1587dcbfc5980e0c4e72940f
           </ul>
         </div>
 
