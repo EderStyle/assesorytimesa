@@ -394,6 +394,13 @@
 	bottom: 0px;
 	top: auto;
 	opacity: 1;
+	text-align: left;
+    color: #ffffff;
+    font-family: impact;
+    font-size: 34px;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke: 2px black;
 	
 }
 #wowslider-container1 .ws-title div,#wowslider-container1 .ws-title span{
@@ -403,9 +410,17 @@
 #wowslider-container1 .ws-title div{
 	display:block;
 	margin-top:0.5em;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	line-height: 1.15em;
 	padding: 5px 20px;
+	
+	text-align: left;
+    color: #ffffff;
+    font-family: impact;
+    font-size: 34px;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke: 2px black;
 }
 #wowslider-container1 .ws-title span{
 	font-size: 2.2em;

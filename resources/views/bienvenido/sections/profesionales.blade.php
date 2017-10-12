@@ -1,5 +1,6 @@
+<a href="#" name="profesionales"></a>
 <div>
-  <h4 class="center">Nuestros profesionales</h4>
+  <h4 class="center">STAFF</h4>
   </div>
   
             
@@ -10,8 +11,7 @@
       <img src="images/profesionales/Miriam.jpg">
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">VER--><i class="material-icons right">more_vert</i></span>
-      <p><a href="#">Ing. Miriam Elizabeth Peña González </a></p>
+      <span class="card-title activator grey-text text-darken-4 center" style="font-size: 16px;">Miriam Peña <i class="material-icons right">perm_identity</i></span>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4"> EXPERIENCIA <i class="material-icons right">close</i></span>
@@ -26,16 +26,16 @@
 
   <div class="card col s8 m3 offset-s2">
     <div class="card-image waves-effect waves-block waves-light ">
-      <img src="images/profesionales/Cesar.jpg">
+      <img src="images/profesionales/Cesar.jpeg">
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">VER--><i class="material-icons right">more_vert</i></span>
-      <p><a href="#">Ing. Cesar Gabriel Barrionuevo de la Rosa</a></p>
+      <span class="card-title activator grey-text text-darken-4 center" style="font-size: 16px">Cesar Barrionuevo <i class="material-icons right">perm_identity</i></span>
+      
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4"> EXPERIENCIA <i class="material-icons right">close</i></span>
       <h5>Ingeniero en Sistemas Administrativos Computarizados
-        Especialización en Finanzas y Sistemas de Información
+  
        </h5>
           <li>Con MBA. EN NEGOCIOS INTERNACIONALES</li>
           <li>Con Diplomado en Negocios Internacionales Y Globalizacón</li>
@@ -46,11 +46,11 @@
 
   <div class="card col s8 m3 offset-s2">
     <div class="card-image waves-effect waves-block waves-light ">
-      <img src="images/profesionales/Milton.jpg">
+      <img src="images/profesionales/Milton.jpeg">
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">VER--><i class="material-icons right">more_vert</i></span>
-      <p><a href="#">Ing. Milton Alexander Villegas Alava </a></p>
+      <span class="card-title activator grey-text text-darken-4 center" style="font-size: 16px">Milton Villegas<i class="material-icons right">perm_identity</i></span>
+      
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4"> EXPERIENCIA <i class="material-icons right">close</i></span>
@@ -66,15 +66,15 @@
 
   <div class="card col s8 m3 offset-s2">
     <div class="card-image waves-effect waves-block waves-light ">
-      <img src="images/profesionales/Jean.jpg">
+      <img src="images/profesionales/Francisco.jpg">
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">VER--><i class="material-icons right">more_vert</i></span>
-      <p><a href="#">Phd. Jean Carlos Muñoz Iglesias</a></p>
+      <span class="card-title activator grey-text text-darken-4 center" style="font-size: 16px">Francisco Cedeño<i class="material-icons right">perm_identity</i></span>
+      
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4"> EXPERIENCIA <i class="material-icons right">close</i></span>
-      <h5>Ingeniero en Sistemas Computacionales</h5>
+      <h5>Ingeniero en Gestión Empresarial</h5>
           <li>Con maestría en Marketing y RRHH</li>
           <li>Educadora universitaria con mas de 20 años de experiencia en el área de Marketing y negocios.</li>
           <li>Fue Gerente Regional de Mac Graw Hill International por 4 años.</li>
